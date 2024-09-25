@@ -95,3 +95,20 @@ footer p {
   margin: 0;
   font-size: 16px; /* フッターの文字サイズを大きく */
 }
+
+/* style.css */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
